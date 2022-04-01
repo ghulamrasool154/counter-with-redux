@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p,
+span,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #125007;
+}
+
+h1.count {
+  color: #050585;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.btn-danger {
+  font-size: 25px;
+}
